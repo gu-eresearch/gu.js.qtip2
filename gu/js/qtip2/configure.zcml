@@ -1,0 +1,25 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:browser="http://namespaces.zope.org/browser"
+>
+    
+    <browser:resourceDirectory
+        name="gu.js.qtip2"
+        directory="plugin"
+    />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="gu.js.qtip2"
+        directory="profiles/default"
+        description="Install qtip2 in portal_javascript &amp; portal_css"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+    
+</configure>
+
+
+
+
+
