@@ -3,7 +3,7 @@
     <javascript 
         id="++resource++gu.js.qtip2/jquery.qtip.min.js"
         cacheable="True" 
-        compression="safe" 
+        compression="none" 
         cookable="False"
         enabled="True" 
         expression=""  
