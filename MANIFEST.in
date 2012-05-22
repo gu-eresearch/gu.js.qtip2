@@ -1,0 +1,2 @@
+include README.txt MANIFEST.in
+recursive-include gu *.zcml *.xml *.css *.js
